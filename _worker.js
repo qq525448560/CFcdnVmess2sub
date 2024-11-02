@@ -245,8 +245,8 @@ export default {
 		const url = new URL(request.url);
 		const format = url.searchParams.get('format') ? url.searchParams.get('format').toLowerCase() : "null";
 		let cc = "";
-		let host = "";
-		let uuid = "";
+		let host = "yjxsg.xmma.us.kg";
+		let uuid = "92db90d7-6586-41ff-8d1a-2111816a51b2";
 		let path = "";
 		let alterid = "";
 		let security = "";
